@@ -1,0 +1,200 @@
+body{
+  background-image: url(img/webb-dark.png);
+ 
+
+}
+
+.content{
+    width: 800px;
+    height: 600px;
+    background-color: rgba(17, 1, 1, 0.377);
+    margin-top: 10px; 
+    position: relative;
+    display:flex;
+    visibility:hidden;
+}
+
+.header{
+  width: 800px;
+  height: 50px;
+  /* background-color: blue;  */
+  padding-left: 10px;
+  padding-right: 10px;
+ box-sizing: border-box;
+}
+
+.footer{
+  width: 800px;
+  height: 50px;
+  /* background-color: blue; */
+  margin-top: 10px;
+ 
+}
+
+.container{
+  /* background-image:url(img/op.jpeg); */
+  background-color: rgba(255, 250, 240, 0.453);
+  border-radius:10px ;
+  background-size: cover;
+  margin: auto;
+  width: 800px;
+}
+
+.header h1{
+  color:white;
+  display: inline-block;
+  margin-top: 0;
+  font-size: 40px;
+}
+
+li{
+  font-size: 30px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: max-content;
+  height: max-content;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom:5px;
+  padding-left: 10px;
+  color: whitesmoke;
+}
+
+li:hover{
+  background-color: whitesmoke;
+  color: gray;
+  cursor: pointer;
+}
+
+ul{
+  display: inline-block;
+  margin-top: 0;
+}
+
+.foto{
+  background-image: url(img/foto.jpg);
+  background-size:cover;
+  background-position:-348px 0;
+  width: 348px;
+  height: 540px;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  display: inline-block;
+  border-radius: 20px;
+  visibility: hidden;
+}
+
+.info{
+  width: 348px;
+  height: 540px;
+  /* background-color: crimson; */
+  display: inline-block;
+  position: relative;
+  right: -50px;
+  bottom: -30px;
+  visibility: hidden;
+}
+
+.emblem-1{
+  width: 200px;
+  height: 100px;
+  position:  absolute ;
+  left: 0px;
+  bottom: 0px;
+  background-image: url(img/logo-mobile-legends.png);
+  background-size: cover;
+}
+
+.emblem-2{
+  width: 150px;
+  height: 80px;
+  position:  absolute ;
+  left: 20px;
+  bottom: 110px;
+  background-image: url(img/logo-FF-keren-3D.png);
+  background-size: cover;
+}
+
+
+.emblem-3{
+  width: 100px;
+  height: 100px;
+  position:  absolute ;
+  left: 198px;
+  bottom: 110px;
+  background-image: url(img/rlbx.jpeg);
+  background-size: cover;
+
+
+}.emblem-4{
+  width: 100px;
+  height: 100px;
+  position:  absolute ;
+  left: 198px;
+  bottom: 0px;
+  background-image: url(img/hok.jpeg);
+  background-size: cover;
+}
+
+.info h1{
+  font-size: 60px;
+  margin-bottom: -40px;
+  color: white;
+}
+
+.info h2{
+  font-size: 40px;
+  color:silver;
+  text-transform: capitalize;
+}
+
+.footer p{
+  font-size: 20px;
+  text-align: center;
+  color: gray;
+  font-style:italic ;
+  font-weight: bold;
+}
+
+.about{
+  background-color: rgba(100, 148, 237, 0.328);
+  position: absolute;
+  top: 0px;
+  height: inherit;
+  width: inherit;
+  visibility: hidden;
+ 
+}
+
+.about p{
+  text-align:justify;
+  font-size: 30px;
+  padding-right:30px ;
+  padding-left: 30px;
+  /* background-color: aliceblue; */
+}
+
+.about h1{
+  text-align: center;
+  color: aliceblue;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.project{
+
+width: 750;
+  height: inherit;
+  background-color: aliceblue;
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  visibility: hidden;
+  overflow-y: auto;
+}
+
+table{
+  background-color: aliceblue;
+  width: inherit;
+}
